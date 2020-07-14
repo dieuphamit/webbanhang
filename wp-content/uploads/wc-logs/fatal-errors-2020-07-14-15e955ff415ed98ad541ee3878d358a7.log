@@ -1,0 +1,45 @@
+2020-07-14T04:20:58+00:00 CRITICAL Uncaught Error: Call to protected method MyThemeShop_Connect\Core::update_settings() from context 'MyThemeShop_Connect\Ajax' in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php:106
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): MyThemeShop_Connect\Ajax->update_settings('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(175): do_action('wp_ajax_mts_con...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php on line 106
+
+2020-07-14T04:23:28+00:00 CRITICAL Uncaught Error: Call to protected method MyThemeShop_Connect\Core::update_settings() from context 'MyThemeShop_Connect\Ajax' in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php:106
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): MyThemeShop_Connect\Ajax->update_settings('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(175): do_action('wp_ajax_mts_con...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php on line 106
+
+2020-07-14T04:23:45+00:00 CRITICAL Uncaught Error: Call to protected method MyThemeShop_Connect\Core::update_settings() from context 'MyThemeShop_Connect\Ajax' in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php:106
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): MyThemeShop_Connect\Ajax->update_settings('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(175): do_action('wp_ajax_mts_con...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php on line 106
+
+2020-07-14T04:26:37+00:00 CRITICAL Uncaught Error: Call to protected method MyThemeShop_Connect\Core::update_settings() from context 'MyThemeShop_Connect\Ajax' in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php:106
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): MyThemeShop_Connect\Ajax->update_settings('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(175): do_action('wp_ajax_mts_con...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\mythemeshop-connect\includes\class-ajax.php on line 106
+
+2020-07-14T06:37:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 289 and exactly 2 expected in C:\xampp\htdocs\wordpress\wp-content\themes\mts_ecommerce\functions.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(289): mts_disable_auto_update_theme(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters(false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-automatic-updater.php(184): apply_filters('auto_update_the...', false, Object(stdClass))
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-automatic-updater.php(299): WP_Automatic_Updater->should_update('theme', Object(stdClass), 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-automatic-updater.php(434): WP_Automatic_Updater->update('theme', Object(stdClass))
+#5 C:\xampp\htdocs\wordpress\wp-includes\update.php(611): WP_Automatic_Updater->run() in C:\xampp\htdocs\wordpress\wp-content\themes\mts_ecommerce\functions.php on line 24
+
