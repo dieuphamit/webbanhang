@@ -181,24 +181,45 @@
         "wp-links-opml.php",
         "wp-locations.php"
     ],
-    "pgcache.accept.qs": [],
+    "pgcache.accept.qs": [
+        ""
+    ],
     "pgcache.late_init": false,
     "pgcache.late_caching": false,
     "pgcache.mirrors.enabled": false,
-    "pgcache.mirrors.home_urls": [],
+    "pgcache.mirrors.home_urls": [
+        ""
+    ],
     "pgcache.reject.front_page": false,
     "pgcache.reject.logged": true,
     "pgcache.reject.logged_roles": false,
-    "pgcache.reject.roles": [],
+    "pgcache.reject.roles": [
+        ""
+    ],
     "pgcache.reject.uri": [
         "wp-.*\\.php",
-        "index\\.php"
+        "index\\.php",
+        "\/gio-hang\/",
+        "\/thanh-toan\/",
+        "\/thanh-toan\/*",
+        "\/tai-khoan\/",
+        "\/tai-khoan\/*"
     ],
-    "pgcache.reject.categories": [],
-    "pgcache.reject.tags": [],
-    "pgcache.reject.authors": [],
-    "pgcache.reject.custom": [],
-    "pgcache.reject.ua": [],
+    "pgcache.reject.categories": [
+        ""
+    ],
+    "pgcache.reject.tags": [
+        ""
+    ],
+    "pgcache.reject.authors": [
+        ""
+    ],
+    "pgcache.reject.custom": [
+        ""
+    ],
+    "pgcache.reject.ua": [
+        ""
+    ],
     "pgcache.reject.cookie": [
         "wptouch_switch_toggle"
     ],
@@ -220,7 +241,9 @@
         "rss2"
     ],
     "pgcache.purge.postpages_limit": 10,
-    "pgcache.purge.pages": [],
+    "pgcache.purge.pages": [
+        ""
+    ],
     "pgcache.purge.sitemap_regex": "([a-z0-9_\\-]*?)sitemap([a-z0-9_\\-]*)?\\.xml",
     "pgcache.prime.enabled": false,
     "pgcache.prime.interval": 900,
